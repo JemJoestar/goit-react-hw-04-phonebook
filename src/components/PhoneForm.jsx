@@ -11,6 +11,7 @@ export const PhoneForm = ({handleAddNumber}) => {
     switch(event.target.name){
       case "name": setName(event.target.value);break;
       case "number": setNumber(event.target.value);break;
+      default:
     }
   }
 
