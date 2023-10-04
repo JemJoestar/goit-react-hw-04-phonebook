@@ -1,4 +1,4 @@
-import { Component, useEffect, useState } from 'react';
+import {  useEffect, useState } from 'react';
 import { PhoneForm } from './PhoneForm';
 import { ContactList } from './ContactList';
 import { nanoid } from 'nanoid';
